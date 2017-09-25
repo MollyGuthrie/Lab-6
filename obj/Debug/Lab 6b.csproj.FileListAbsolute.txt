@@ -1,0 +1,14 @@
+c:\users\guthrim\source\repos\Lab 6b\Lab 6b\bin\Debug\Lab 6b.exe.config
+c:\users\guthrim\source\repos\Lab 6b\Lab 6b\bin\Debug\Lab 6b.exe
+c:\users\guthrim\source\repos\Lab 6b\Lab 6b\bin\Debug\Lab 6b.pdb
+c:\users\guthrim\source\repos\Lab 6b\Lab 6b\obj\Debug\Lab 6b.csprojResolveAssemblyReference.cache
+c:\users\guthrim\source\repos\Lab 6b\Lab 6b\obj\Debug\Lab 6b.csproj.CoreCompileInputs.cache
+c:\users\guthrim\source\repos\Lab 6b\Lab 6b\obj\Debug\Lab 6b.exe
+c:\users\guthrim\source\repos\Lab 6b\Lab 6b\obj\Debug\Lab 6b.pdb
+C:\Users\guthrim\source\repos\Lab6\Lab 6b\bin\Debug\Lab 6b.exe.config
+C:\Users\guthrim\source\repos\Lab6\Lab 6b\bin\Debug\Lab 6b.exe
+C:\Users\guthrim\source\repos\Lab6\Lab 6b\bin\Debug\Lab 6b.pdb
+C:\Users\guthrim\source\repos\Lab6\Lab 6b\obj\Debug\Lab 6b.csprojResolveAssemblyReference.cache
+C:\Users\guthrim\source\repos\Lab6\Lab 6b\obj\Debug\Lab 6b.csproj.CoreCompileInputs.cache
+C:\Users\guthrim\source\repos\Lab6\Lab 6b\obj\Debug\Lab 6b.exe
+C:\Users\guthrim\source\repos\Lab6\Lab 6b\obj\Debug\Lab 6b.pdb
