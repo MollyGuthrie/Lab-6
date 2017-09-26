@@ -6,22 +6,28 @@ namespace Lab6
     {
         static void Main(string[] args) 
         {
+            //welcome splash
             Console.WriteLine("Welcome to the Pig Latin Translator!\n");
             bool run = true;
             while (run == true)
             {
+                //ask for input
                 Console.Write("Enter a line to be translate:");
                 string inputRequested = Console.ReadLine();
                 inputRequested.ToLower();
+                //check to see if user entered a string
+                if (inputRequested.Length == 0)
+                {
+                    Console.WriteLine("You did not enter a word.");
+                }
                 string indexZero = inputRequested.Substring(0, 1);
                 string translate = " ";
                 int x = 1;
                 int z = inputRequested.Length;
                 z = z - 1;
-                char vowel;
-                
-                bool lookingForVowels = false;
-
+                char vowel;                
+                bool lookingForVowels = false;                
+                //if it starts with a vowel concat with way
                 if (indexZero == "a" || indexZero == "e" || indexZero == "i" || indexZero == "o" || indexZero == "u")
                 {
                     translate = inputRequested + "way";
@@ -29,7 +35,7 @@ namespace Lab6
                     indexZero = "y";
                     lookingForVowels = true;
                 }
-
+                //if it starts with a const move to the back and concat with ay
                 while (lookingForVowels == false)
                 {
                     vowel = inputRequested[x];
@@ -37,20 +43,17 @@ namespace Lab6
 
                     if (vowel == 'a' || vowel == 'e' || vowel == 'i' || vowel == 'o' || vowel == 'u')
                     {
-                        string isConsonant = inputRequested.Remove(0, (x - 1));
+                        string consonant = inputRequested.Remove(0, (x - 1));
                         string chopped = inputRequested.Substring(0, (x - 1));
-
-                        string pigLatinConsonant = string.Concat(isConsonant, chopped, "ay");
-
+                        string pigLatinConsonant = string.Concat(consonant, chopped, "ay");
                         Console.WriteLine(pigLatinConsonant);
-                        lookingForVowels = true;
-                        vowel = 'b';
-                        x = 1;
+                        lookingForVowels = true;                        
                     }
                 }
                 run = Continue();
             }
         }
+        //ask if user wants to do it again, if so loop back up
         public static bool Continue()
         {
             Console.WriteLine("\nTranslate another line? (y/n):");

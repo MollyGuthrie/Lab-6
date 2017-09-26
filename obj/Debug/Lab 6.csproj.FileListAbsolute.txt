@@ -5,3 +5,10 @@ C:\Users\guthrim\source\repos\Lab6\Lab 6b\obj\Debug\Lab 6.csproj.CoreCompileInpu
 C:\Users\guthrim\source\repos\Lab6\Lab 6b\obj\Debug\Lab 6b.exe
 C:\Users\guthrim\source\repos\Lab6\Lab 6b\obj\Debug\Lab 6b.pdb
 C:\Users\guthrim\source\repos\Lab6\Lab 6b\obj\Debug\Lab 6.csprojResolveAssemblyReference.cache
+C:\Users\guthrim\source\repos\Lab6\Lab6\bin\Debug\Lab 6b.exe.config
+C:\Users\guthrim\source\repos\Lab6\Lab6\bin\Debug\Lab 6b.exe
+C:\Users\guthrim\source\repos\Lab6\Lab6\bin\Debug\Lab 6b.pdb
+C:\Users\guthrim\source\repos\Lab6\Lab6\obj\Debug\Lab 6.csprojResolveAssemblyReference.cache
+C:\Users\guthrim\source\repos\Lab6\Lab6\obj\Debug\Lab 6.csproj.CoreCompileInputs.cache
+C:\Users\guthrim\source\repos\Lab6\Lab6\obj\Debug\Lab 6b.exe
+C:\Users\guthrim\source\repos\Lab6\Lab6\obj\Debug\Lab 6b.pdb
